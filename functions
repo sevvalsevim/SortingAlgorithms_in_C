@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int a(int number)
+{
+	int result=number*number*number;
+	return result;
+}
+int main(){
+	int s;
+	printf("Enter the number: ");
+	scanf("%d",&s);
+	a (s);
+	printf("\n\n result:%d",a (s));
+}
