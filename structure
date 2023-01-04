@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct record
+{
+	char name[20];
+	int no;
+	int sinif;
+    float average;
+};
+
+int main(){
+	
+	struct record std;
+	
+	printf("Name Surname: ");
+	scanf("%s",&std.name);
+	printf("No: ");
+	scanf("%d",&std.no);
+	printf("Class: \n");
+	scanf("%d",&std.sinif);
+	printf("Average: \n ");
+	scanf("%f",&std.average);
+	
+	printf("%s",std.name );
+	printf("%d",std.no);
+	printf("%d",std.sinif);
+	printf("%f",std.average);
+	
+}
