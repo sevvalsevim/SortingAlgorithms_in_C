@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<time.h>
+int main(){
+ int i,n,zar;
+ srand(time(NULL));
+ printf("Zar atma deneyi\n");
+ printf("Zar kac kere atilsin= ");
+ scanf("%d",&n);
+
+ for(i=1;i<=n;i++){
+ zar=rand()%6+1;
+ printf("%d.atis=%d\n",i,zar);
+ }
+ getch();
+ }
